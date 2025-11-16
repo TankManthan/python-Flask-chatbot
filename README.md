@@ -65,11 +65,13 @@ http://127.0.0.1:5000
 ## 🔍 How It Works
 1. User enters a query
 2. Backend fetches:
+3. 
       Wikipedia summary
+   
       DuckDuckGo instant answers
-3. Results are cleaned & merged
-4. Summarizer returns a 3–4 line final answer
-5. UI shows animated typing bubble, then displays the response
+5. Results are cleaned & merged
+6. Summarizer returns a 3–4 line final answer
+7. UI shows animated typing bubble, then displays the response
 
 ---
 
