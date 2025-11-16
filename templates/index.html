@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Python Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
+        <div class="logo"><img src="/static/bot.png" class="profile-icon"></div>
+
+        <button class="new-chat-btn" onclick="clearChat()">+ New Chat</button>
+
+        <div class="sidebar-links">
+            <p>Chats</p>
+            <ul id="chatList"></ul>
+        </div>
+    </aside>
+
+
+    <!-- MAIN AREA -->
+    <div class="main">
+
+        <!-- TOP NAVBAR -->
+        <nav class="top-nav">
+            <div class="nav-left">
+                <!-- <img src="/static/bot.png" class="profile-icon"> -->
+                <h3> 🐍 Python Chatbot</h3>
+            </div>
+
+            <div class="nav-right">
+                <button class="export-btn" onclick="exportChat()">Share</button>
+
+                <!-- DARK MODE TOGGLE -->
+                <label class="switch">
+                    <input type="checkbox" id="darkToggle">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </nav>
+
+        <!-- CHAT AREA -->
+        <div id="messages" class="messages"></div>
+
+        <div class="input-wrapper">
+            <center>
+                <div class="input-box">
+                    <textarea id="user_input" placeholder="Ask anything..." rows="1"></textarea>
+                    <button class="send-btn" onclick="sendMessage()">➤</button>
+                </div>
+            </center>
+            <p class="input-hint">Python Chatbot — Developed by Tank Manthan</p>
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
