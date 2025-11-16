@@ -15,6 +15,8 @@
 
 ## 📸 Preview
 
+### ☀️ Light Mode
+
 <p align="center">
   <img src="static/preview_light.png" width="85%">
 </p>
@@ -46,15 +48,16 @@
 
 ### 1️⃣ Clone the repository
 git clone https://github.com/yourusername/python-chatbot.git
+
 cd python-chatbot
 
-###2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 pip install -r requirements.txt
 
-###3️⃣ Run the server
+### 3️⃣ Run the server
 python app.py
 
-###4️⃣ Open in browser
+### 4️⃣ Open in browser
 http://127.0.0.1:5000
 
 ---
@@ -62,18 +65,24 @@ http://127.0.0.1:5000
 ## 🔍 How It Works
 1. User enters a query
 2. Backend fetches:
-  Wikipedia summary
-  DuckDuckGo instant answers
+      Wikipedia summary
+      DuckDuckGo instant answers
 3. Results are cleaned & merged
 4. Summarizer returns a 3–4 line final answer
 5. UI shows animated typing bubble, then displays the response
 
 ---
 
-🧩 Technologies Used
+## 🧩 Technologies Used
+
 Python
+
 Flask
+
 Requests (API calls)
+
 HTML / CSS / JavaScript
+
 Wikipedia API
+
 DuckDuckGo API
