@@ -2,7 +2,6 @@
   <img src="static/project_logo.png" width="160">
 </p>
 
-<h1 align="center">🐍 Python Chatbot</h1>
 <p align="center">A modern, ChatGPT-styled chatbot powered by Python + Flask with live search (Wikipedia + DuckDuckGo) and smart summarization.</p>
 
 <p align="center">
@@ -17,12 +16,6 @@
 ## 📸 Preview
 
 <img width="1361" height="592" alt="Screenshot 2025-11-16 145354" src="https://github.com/user-attachments/assets/6e484dde-bca8-48ba-8fee-bf07c9c5d17b" />
-
-
-### 🖼 Chat Interface
-<p align="center">
-  <img src="static/preview-chat.png" width="85%">
-</p>
 
 ### 🌙 Dark Mode
 <p align="center">
