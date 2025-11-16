@@ -16,13 +16,13 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="static/preview-dark.png" width="85%">
+  <img src="static/preview_light.png" width="85%">
 </p>
 
 ### 🌙 Dark Mode
 
 <p align="center">
-  <img src="static/preview-dark.png" width="85%">
+  <img src="static/preview_dark.png" width="85%">
 </p>
 
 ---
