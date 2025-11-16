@@ -42,50 +42,19 @@
 
 ---
 
-## 📁 Project Structure
-
-python-chatbot/
-│── app.py
-
-│── requirements.txt
-
-│── README.md
-
-│── .gitignore
-│
-├── templates/
-
-│ └── index.html
-
-│
-└── static/
-
-├── style.css
-
-├── script.js
-
-├── logo.png
-
-├── preview-chat.png
-
-└── preview-dark.png
-
----
-
 ## 🛠 Installation
 
 ### 1️⃣ Clone the repository
-```bash
 git clone https://github.com/yourusername/python-chatbot.git
-cd python-chatbot ```
+cd python-chatbot
 
-2️⃣ Install dependencies
+###2️⃣ Install dependencies
 pip install -r requirements.txt
 
-3️⃣ Run the server
+###3️⃣ Run the server
 python app.py
 
-4️⃣ Open in browser
+###4️⃣ Open in browser
 http://127.0.0.1:5000
 
 ---
