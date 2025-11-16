@@ -65,9 +65,9 @@ http://127.0.0.1:5000
 ## 🔍 How It Works
 1. User enters a query
 2. Backend fetches:
-3. 
-      Wikipedia summary
    
+      Wikipedia summary
+
       DuckDuckGo instant answers
 5. Results are cleaned & merged
 6. Summarizer returns a 3–4 line final answer
