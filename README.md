@@ -15,9 +15,12 @@
 
 ## 📸 Preview
 
-<img width="1361" height="592" alt="Screenshot 2025-11-16 145354" src="https://github.com/user-attachments/assets/6e484dde-bca8-48ba-8fee-bf07c9c5d17b" />
+<p align="center">
+  <img src="static/preview-dark.png" width="85%">
+</p>
 
 ### 🌙 Dark Mode
+
 <p align="center">
   <img src="static/preview-dark.png" width="85%">
 </p>
@@ -41,3 +44,67 @@
 
 ## 📁 Project Structure
 
+python-chatbot/
+│── app.py
+│── requirements.txt
+│── README.md
+│── .gitignore
+│
+├── templates/
+│ └── index.html
+│
+└── static/
+├── style.css
+├── script.js
+├── logo.png
+├── preview-chat.png
+└── preview-dark.png
+
+---
+
+## 🛠 Installation
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/yourusername/python-chatbot.git
+cd python-chatbot
+2️⃣ Install dependencies
+pip install -r requirements.txt
+3️⃣ Run the server
+python app.py
+4️⃣ Open in browser
+http://127.0.0.1:5000
+
+---
+
+\🔍 How It Works
+
+User enters a query
+
+Backend fetches:
+
+Wikipedia summary
+
+DuckDuckGo instant answers
+
+Results are cleaned & merged
+
+Summarizer returns a 3–4 line final answer
+
+UI shows animated typing bubble, then displays the response
+
+---
+
+🧩 Technologies Used
+
+Python
+
+Flask
+
+Requests (API calls)
+
+HTML / CSS / JavaScript
+
+Wikipedia API
+
+DuckDuckGo API
